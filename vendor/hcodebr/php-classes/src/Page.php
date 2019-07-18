@@ -16,7 +16,7 @@ class Page {
 
         $config = array(
             "tpl_dir"       => $_SERVER["DOCUMENT_ROOT"] ."/views/",
-            "cache_dir"     => $_SERVER["DOCUMENT_ROOT"] ."/views/",
+            "cache_dir"     => $_SERVER["DOCUMENT_ROOT"] ."/views-cache/",
             "debug"         => false // set to false to improve the speed
         );
 
