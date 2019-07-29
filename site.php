@@ -1,5 +1,6 @@
 <?php 
 use \Hcode\Model\User;
+use \Hcode\Page;
 use \Hcode\Model\Category;
 
 $app->get('/', function() {
